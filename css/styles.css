@@ -1,0 +1,30 @@
+body {
+    font-family: 'PT Sans Caption', sans-serif; 
+}
+
+.jumbotron {
+    background-image: linear-gradient(to left, #205072, #CFF4D2);
+    font-family: 'Permanent Marker', cursive; 
+}
+
+h3 {
+    color: #205072; 
+    font-weight: bold; 
+}
+
+header h1 {
+    color: #205072; 
+}
+
+footer {
+    background-image: linear-gradient(to left, #205072, #CFF4D2);
+    padding-top: 35px;
+    padding-bottom: 20px
+}
+
+.row-content {
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #205072; 
+    border-radius: 20px;
+}
