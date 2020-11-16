@@ -1,10 +1,13 @@
+/* elements */
+
 body {
     font-family: 'PT Sans Caption', sans-serif; 
 }
 
-.jumbotron {
+footer {
     background-image: linear-gradient(to left, #205072, #CFF4D2);
-    font-family: 'Permanent Marker', cursive; 
+    padding-top: 35px;
+    padding-bottom: 20px
 }
 
 h3 {
@@ -16,10 +19,16 @@ header h1 {
     color: #205072; 
 }
 
-footer {
+/* classes */
+
+.jumbotron {
     background-image: linear-gradient(to left, #205072, #CFF4D2);
-    padding-top: 35px;
-    padding-bottom: 20px
+    font-family: 'Permanent Marker', cursive; 
+    margin: 0;
+}
+
+.navbar {
+    background-color: #205072; 
 }
 
 .row-content {
