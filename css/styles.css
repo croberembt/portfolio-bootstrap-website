@@ -5,7 +5,7 @@ body {
 }
 
 footer {
-    background-image: linear-gradient(to left, #205072, #CFF4D2);
+    background-color: #205072; 
     padding-top: 35px;
     padding-bottom: 20px
 }
