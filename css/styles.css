@@ -80,3 +80,27 @@ header h1 {
 #contactForm .col {
     margin: 10px; 
 }
+
+#teamImgOne {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#teamImgTwo {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#teamImgThree {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#teamImgFour {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
