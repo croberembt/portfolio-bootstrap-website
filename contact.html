@@ -37,16 +37,26 @@
             </button>
             <div class='collapse navbar-collapse' id='siteNavbar'>
                 <ul class='navbar-nav'>
-                    <li class='nav-item active'><a class='nav-link' href='#'><span class='fa fa-home fa-lg fa-fw'></span>Home</a></li>
+                    <li class='nav-item'><a class='nav-link' href='#'><span class='fa fa-home fa-lg fa-fw'></span>Home</a></li>
                     <li class='nav-item'><a class='nav-link' href='about.html'><span class='fa fa-info-circle fa-lg fa-fw'></span>About</a></li>
-                    <li class='nav-item'><a class='nav-link' href='#'><span class='fa fa-bar-chart fa-lg fa-fw'></span>Placeholder</a></li>
-                    <li class='nav-item'><a class='nav-link' href='contact.html'><span class='fa fa-pencil-square fa-lg fa-fw'></span>Contact</a></li>
+                    <li class='nav-item'><a class='nav-link' href='stats.html'><span class='fa fa-bar-chart fa-lg fa-fw'></span>Stats</a></li>
+                    <li class='nav-item active'><a class='nav-link' href='contact.html'><span class='fa fa-pencil-square fa-lg fa-fw'></span>Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div class='container'>
+
+        <div class='row'>
+            <div class='col'>
+                <ol class='breadcrumb'>
+                    <li class='breadcrumb-item'> <a href='index.html'>Home</a></li>
+                    <li class='breadcrumb-item active'>Contact</li>
+                </ol>
+            </div>
+        </div>
+
         <div class = 'row row-content align-items-center' style='text-align: center'>
             <div class='col-6'>
                 <h4>111 Driveway Lane</h3>
@@ -69,21 +79,26 @@
     <form>
         <div class='container' id='contactForm'>
             <div class='row row content'>
-                <div class='col-12'>
+                <div class='col-12 col-md-6'>
                     <input type='text' class='form-control' id='companyName' name='companyName' placeholder='Company Name' />
                 </div>
-                <div class='col-12'>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
                     <input type='text' class='form-control' id='firstName' name='firstName' placeholder='First Name' />
                 </div>
-                <div class='col-12'>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
                     <input type='text' class='form-control' id='lastName' name='lastName' placeholder='Last Name' />
                 </div>
-                <div class='col-12'>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
                     <input type='tel' class='form-control' id='phoneNum' name='phoneNum' placeholder='Phone Number' />
                 </div>
-                <div class='col-12'>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
                     <input type='email' class='form-control' id='email' name='email' placeholder='Email' />
                 </div>
+                <div class='col-md-6'></div>
                 <div class='col-12' style='margin-left: 13px'>
                     Would you like to receive exclusive promotions and keep up to date on our innovative solutions?  
                 </div>
@@ -94,7 +109,7 @@
                     <label for='newsNo'>No</label>
                 </div>
                 <div class='col-12'>
-                    <textarea id='feedback' class='form-control' name='feedback' rows='20' placeholder='What problems can we solve for you?'></textarea>
+                    <textarea id='feedback' class='form-control' name='feedback' rows='10' placeholder='What problems can we solve for you?'></textarea>
                 </div>
                 <div class='col-12 text-center'>
                     <button type='submit' class='btn btn-color'>Contact Us</button>
