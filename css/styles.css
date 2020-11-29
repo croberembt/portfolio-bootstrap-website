@@ -4,10 +4,6 @@ body {
     font-family: 'PT Sans Caption', sans-serif; 
 }
 
-.card {
-    margin: 10px;
-}
-
 div button {
     margin: 10px; 
 }
@@ -36,11 +32,14 @@ header h1 {
 }
 
 
-
 /* classes */
 
-.btn-color {
+.feedback-btn {
     background-color: #329D9C;
+}
+
+.card {
+    margin: 10px;
 }
 
 .facts-color {
@@ -65,20 +64,21 @@ header h1 {
     border-radius: 20px;
 }
 
+.schedule-btn {
+    background-color: #329D9C;
+}
+
 .quick-facts {
     background-color: #CFF4D2;
 }
 
+
 /* ids */
 
-#contactForm {
-    background-color: #CFF4D2;
-    border-radius: 20px;
-    padding: 30px; 
-}
-
-#contactForm .col {
-    margin: 10px; 
+#serviceDropdown {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
 }
 
 #teamImgOne {

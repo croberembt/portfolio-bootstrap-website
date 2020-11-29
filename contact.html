@@ -81,11 +81,58 @@
                 <h4>55104</h3>
             </div>
         </div>
-    </div>
 
-    <form>
-        <div class='container' id='contactForm'>
-            <div class='row row content'>
+        <form>
+            <div class='row row-content'>
+                <div class='col-12 text-center' style='margin-bottom: 20px'>
+                    <h3> Schedule A Free Consultation </h3>
+                </div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='companyName' name='companyName' placeholder='Company Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='firstName' name='firstName' placeholder='First Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='lastName' name='lastName' placeholder='Last Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='tel' class='form-control' id='phoneNum' name='phoneNum' placeholder='Phone Number' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='email' class='form-control' id='email' name='email' placeholder='Email' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6 dropdown'>
+                    <button class='btn btn-secondary dropdown-toggle' type='button' id='serviceDropdown' data-toggle='dropdown' 
+                        aria-haspopup='true' aria-expanded='false'>Choose A Service...
+                    </button>
+                    <ul class='dropdown-menu' aria-labelledby='serviceDropdown'>
+                        <li><a class='dropdown-item' href='#'>Payment Portal</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
+                        <li><a class='dropdown-item' href='#'>Online Store</a></li>
+                        <li><a class='dropdown-item' href='#'>Time Tracker</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Software</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
+                        <li><a class='dropdown-item' href='#'>Payroll</a></li>
+                    </ul>
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 text-center'>
+                    <button type='submit' class='btn schedule-btn'>Schedule Now</button>
+                </div>
+            </div>
+        </form>
+
+        <form>
+            <div class='row row-content'>
+                <div class='col-12 text-center' style='margin-bottom: 20px'>
+                    <h3> Feedback </h3>
+                </div>
                 <div class='col-12 col-md-6'>
                     <input type='text' class='form-control' id='companyName' name='companyName' placeholder='Company Name' />
                 </div>
@@ -119,11 +166,12 @@
                     <textarea id='feedback' class='form-control' name='feedback' rows='10' placeholder='What problems can we solve for you?'></textarea>
                 </div>
                 <div class='col-12 text-center'>
-                    <button type='submit' class='btn btn-color'>Submit Feedback</button>
+                    <button type='submit' class='btn feedback-btn'>Submit Feedback</button>
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
+
+    </div>
 
     <footer>
         <div class='container'>
