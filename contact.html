@@ -44,6 +44,7 @@
                     <li class='nav-item'><a class='nav-link' href='about.html'><span class='fa fa-info-circle fa-lg fa-fw'></span>About</a></li>
                     <li class='nav-item'><a class='nav-link' href='stats.html'><span class='fa fa-bar-chart fa-lg fa-fw'></span>Stats</a></li>
                     <li class='nav-item active'><a class='nav-link' href='contact.html'><span class='fa fa-pencil-square fa-lg fa-fw'></span>Contact</a></li>
+                    <li class='nav-item'><a class='nav-link' href='#scheduleConsult'><span class='fa fa-calendar fa-lg fa-fw'></span>Schedule a Free Consult</a></li>
                 </ul>
             </div>
         </div>
@@ -85,52 +86,6 @@
         <form>
             <div class='row row-content'>
                 <div class='col-12 text-center' style='margin-bottom: 20px'>
-                    <h3> Schedule A Free Consultation </h3>
-                </div>
-                <div class='col-12 col-md-6'>
-                    <input type='text' class='form-control' id='companyName' name='companyName' placeholder='Company Name' />
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 col-md-6'>
-                    <input type='text' class='form-control' id='firstName' name='firstName' placeholder='First Name' />
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 col-md-6'>
-                    <input type='text' class='form-control' id='lastName' name='lastName' placeholder='Last Name' />
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 col-md-6'>
-                    <input type='tel' class='form-control' id='phoneNum' name='phoneNum' placeholder='Phone Number' />
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 col-md-6'>
-                    <input type='email' class='form-control' id='email' name='email' placeholder='Email' />
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 col-md-6 dropdown'>
-                    <button class='btn btn-secondary dropdown-toggle' type='button' id='serviceDropdown' data-toggle='dropdown' 
-                        aria-haspopup='true' aria-expanded='false'>Choose A Service...
-                    </button>
-                    <ul class='dropdown-menu' aria-labelledby='serviceDropdown'>
-                        <li><a class='dropdown-item' href='#'>Payment Portal</a></li>
-                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
-                        <li><a class='dropdown-item' href='#'>Online Store</a></li>
-                        <li><a class='dropdown-item' href='#'>Time Tracker</a></li>
-                        <li><a class='dropdown-item' href='#'>Custom Software</a></li>
-                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
-                        <li><a class='dropdown-item' href='#'>Payroll</a></li>
-                    </ul>
-                </div>
-                <div class='col-md-6'></div>
-                <div class='col-12 text-center'>
-                    <button type='submit' class='btn schedule-btn'>Schedule Now</button>
-                </div>
-            </div>
-        </form>
-
-        <form>
-            <div class='row row-content'>
-                <div class='col-12 text-center' style='margin-bottom: 20px'>
                     <h3> Feedback </h3>
                 </div>
                 <div class='col-12 col-md-6'>
@@ -167,6 +122,55 @@
                 </div>
                 <div class='col-12 text-center'>
                     <button type='submit' class='btn feedback-btn'>Submit Feedback</button>
+                </div>
+            </div>
+        </form>
+
+        <form id='scheduleConsult'>
+            <div class='row row-content'>
+                <div class='col-12 text-center' style='margin-bottom: 20px'>
+                    <h3> Schedule a Free Consultation </h3>
+                </div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='companyName' name='companyName' placeholder='Company Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='firstName' name='firstName' placeholder='First Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='text' class='form-control' id='lastName' name='lastName' placeholder='Last Name' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='tel' class='form-control' id='phoneNum' name='phoneNum' placeholder='Phone Number' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 col-md-6'>
+                    <input type='email' class='form-control' id='email' name='email' placeholder='Email' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 dropdown'>
+                    <button class='btn btn-secondary dropdown-toggle' type='button' id='serviceDropdown' data-toggle='dropdown' 
+                        aria-haspopup='true' aria-expanded='false'>Choose A Service...
+                    </button>
+                    <ul class='dropdown-menu' aria-labelledby='serviceDropdown'>
+                        <li><a class='dropdown-item' href='#'>Payment Portal</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
+                        <li><a class='dropdown-item' href='#'>Online Store</a></li>
+                        <li><a class='dropdown-item' href='#'>Time Tracker</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Software</a></li>
+                        <li><a class='dropdown-item' href='#'>Custom Website</a></li>
+                        <li><a class='dropdown-item' href='#'>Payroll</a></li>
+                    </ul>
+                </div>
+                <div class='col-12 col-md-6'>
+                    <input type='date' class='form-control' name='date' id='date' placeholder='mm/dd/yyyy' />
+                </div>
+                <div class='col-md-6'></div>
+                <div class='col-12 text-center'>
+                    <button type='submit' class='btn schedule-btn'>Schedule Now</button>
                 </div>
             </div>
         </form>
